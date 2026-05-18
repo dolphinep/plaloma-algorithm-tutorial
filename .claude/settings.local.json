@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(rtk npx *)"
+      "Bash(rtk npx *)",
+      "Bash(npm install *)",
+      "Bash(mkdir -p /Users/pingBLN/project/ping/agorithm/src/app/algorithms/\\\\[slug\\\\])",
+      "Bash(rtk npm *)",
+      "Bash(rtk curl *)",
+      "Bash(rtk tsc *)",
+      "Bash(rtk grep *)",
+      "Bash(rtk wc *)",
+      "Bash(rtk read *)",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" rtk npm run build)",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=6144\" rtk npm run build)",
+      "Bash(rtk ls *)"
     ]
   }
 }
